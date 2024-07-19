@@ -1,5 +1,5 @@
 import './App.css'
-import Dollar from './dollar'
+import Value from './value'
 import { useState } from 'react'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   
   return (
     <>
-      <Dollar amount={amount}/>
+      <Value amount={amount}/>
       <button onClick={() => setAmount(amount - 0.34)}>
         Down
     </button>

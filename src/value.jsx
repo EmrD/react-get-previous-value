@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react"
 
-export default function Dollar({amount}){
+export default function Value({amount}){
 
     const oldAmount = useRef(amount)
     const ref = useRef()
